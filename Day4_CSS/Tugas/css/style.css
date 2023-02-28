@@ -1,0 +1,47 @@
+a:link {
+    font-family: Arial;
+    font-size: 11pt;
+    color: rgb(164, 110, 110);
+}
+
+a:link {
+    font-family: Arial;
+    font-size: 11pt;
+    color: rgb(164, 110, 110);
+}
+
+h1{
+    font-family: Trebuchet MS;
+    font-size: 35pt;
+    color: blue;
+}
+h2{
+    font-family: Trebuchet MS;
+    font-size: 16pt;
+    color: brown;
+}
+.format1{
+    font-family: Verdana;
+    font-size: 16pt;
+    color: red;
+}
+.format2{
+    font-family: Verdana;
+    font-size: 10pt;
+    color: green;
+}
+.format3{
+    font-family: Verdana;
+    font-size: 20pt;
+    color: blue;
+}
+
+
+ul {
+    color: aqua;
+}
+
+ol {
+    color: coral;
+    font-size: 20;
+}

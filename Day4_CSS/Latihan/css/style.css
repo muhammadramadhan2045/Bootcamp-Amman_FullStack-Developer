@@ -1,0 +1,20 @@
+a:link {
+    font-family: Arial;
+    font-size: 11pt;
+    color: red;
+}
+h1{
+    font-family: Trebuchet MS;
+    font-size: 18pt;
+    color: gray;
+}
+h2{
+    font-family: Trebuchet MS;
+    font-size: 16pt;
+    color: brown;
+}
+.format3{
+    font-family: Verdana;
+    font-size: 16pt;
+    color: blue;
+}

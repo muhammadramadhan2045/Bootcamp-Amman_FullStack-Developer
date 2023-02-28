@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator pada JS</title>
+</head>
+<body>
+    <p>Latihan menggunakan operator di JS </p>
+    <script type="text/javascript">
+        var aku=20
+        var kamu=15;
+
+        var benar= aku>kamu
+        var salah= aku<kamu
+
+        //mengembalikan nilai false
+        var hasil= aku==kamu
+        document.write(`apakah nilai ${aku} = ${kamu}, jawabannya adalah <b>${hasil}</b> <br>`);
+        
+        //mengembalikan nilai true
+        hasil= aku>kamu
+        document.write(`apakah nilai ${aku} > ${kamu}, jawabannya adalah <b>${hasil}</b> <br>`)
+        
+        //return nilai false
+        hasil= aku<kamu
+        document.write(`apakah nilai ${aku} < ${kamu}, jawabannya adalah <b>${hasil}</b> <br>`)
+        
+        //return nilai true
+        hasil= aku>=kamu
+        document.write(`apakah nilai ${aku} >= ${kamu}, jawabannya adalah <b>${hasil}</b> <br>`)
+
+        hasil= aku<=kamu
+        document.write(`apakah nilai ${aku} <= ${kamu}, jawabannya adalah <b>${hasil}</b> <br>`)
+
+        hasil= benar && salah
+        document.write(`apakah nilai ${benar} && ${salah}, jawabannya adalah <b>${hasil}</b> <br>`)
+
+        hasil= benar || salah
+        document.write(`apakah nilai ${benar} || ${salah}, jawabannya adalah <b>${hasil}</b> <br>`)
+    </script>
+</body>
+</html>

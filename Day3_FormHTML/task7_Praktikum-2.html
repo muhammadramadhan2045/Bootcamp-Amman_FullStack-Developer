@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Belajar Membuat Table Menggunakan HTML</title>
+    </head>    
+    
+    <body>
+        <form action="#">
+            <table border="2" cellpadding="10">
+                <tr>
+                    <th colspan="3" align="left" bgcolor="yellow">Mengisi Buku Tamu</th>
+                </tr>
+                
+                <tr>
+                    <td><b>Nama</b></td>
+                    <td><input type="text" name="name" id="name" size="20"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Email</b></td>
+                    <td><input type="email" name="email" id="email" size="20"></td>
+                </tr>
+                
+                <tr>
+                    <td><b>Password</b></td>
+                    <td><input type="password" name="password" id="password" size="20"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Agama</b></td>
+                    <td>
+                        <select name="agama" size="1" >
+                            <option value="islam">Islam</option>
+                            <option value="hindu">Hindu</option>
+                            <option value="buddha">Buddha</option>
+                            <option value="kristen">Kristen</option>
+                            <option value="katolik">Katolik</option>
+                            <option value="konghucu">Konghucu</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Jenis Kelamin</b></td>
+                    <td>
+                        <input type="radio" name="pilihan34" value="tiga">Wanita <br> 
+                        <input type="radio" name="pilihan34" value="empat">Pria 
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><b>Komentar Anda</b></td>
+                    <td>
+                        <textarea name="komen" id="" cols="30" rows="20"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">
+                        <input type="submit" value="Selesai">
+                        <input type="reset" value="hapus">
+                    </td>
+                </tr>
+
+    
+
+            </table>
+        </form>
+    </body>
+</html>
